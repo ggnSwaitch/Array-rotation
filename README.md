@@ -38,7 +38,6 @@ func arrRotation(arr: Array<Int>, n: Int) <br />
 func calNumberOfRotations(n: Int, count : Int) -> Int<br />
 {<br />
     var maxRotations = n - count<br />
-    
     if(maxRotations > count)<br />
     {<br />
        maxRotations = calNumberOfRotations(n: maxRotations, count: count)<br />
