@@ -1,7 +1,6 @@
 # Array-rotation
 A simple algorithm to rotate the array with given number of rotation. 
 
-import UIKit
 
 var array = [1,2,3,4,5] <br />
 
